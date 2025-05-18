@@ -1,0 +1,189 @@
+[
+    {
+        "name": "HPRPG",
+        "channels": [
+            {
+                "name": "hrpg-info",
+                "description": "HRPG Guide"
+            },
+            {
+                "name": "hrpg-general",
+                "description": "General chat for HPRPG"
+            },
+            {
+                "name": "hrpg-announcements",
+                "description": "HRPG Announcements"
+            },
+            {
+                "name": "hrpg-help",
+                "description": "Help for HPRPG"
+            }
+        ]
+    },
+    {
+        "name": "Muggle World",
+        "channels": [
+            {
+                "name": "leaky-cauldron",
+                "description": "Access Diagon Alley and stay at the Leaky Cauldron."
+            },
+            {
+                "name": "privet-drive",
+                "description": "Your aunt & uncle's house where you were raised is 4 Privet Drive here in Little Whinging."
+            },
+            {
+                "name": "grimmauld-place",
+                "description": "The headquarters of the Order of the Phoenix is located at 12 Grimmauld Place."
+            },
+            {
+                "name": "platform-9-and-3-quarters",
+                "description": "The Hogwarts Express departs from Platform 9 3/4 at King's Cross Station."
+            },
+            {
+                "name": "the-burrow",
+                "description": "The Weasley family home is located at The Burrow."
+            },
+            {
+                "name": "godrics-hollow",
+                "description": "The village of Godric's Hollow is where Harry's parents were killed by Voldemort. The historian Bathilda Bagshot also lives here."
+            }
+        ]
+    },
+    {
+        "name": "Hogwarts",
+        "channels": [
+            {
+                "name": "great-hall",
+                "description": "The Great Hall is the main gathering area in Hogwarts Castle."
+            },
+            {
+                "name": "dungeons",
+                "description": "The Dungeons are located under the Hogwarts Castle."
+            },
+            {
+                "name": "hufflepuff-common-room",
+                "description": "The Hufflepuff Common Room is located in the basement, near the castle's kitchens."
+            },
+            {
+                "name": "slytherin-common-room",
+                "description": "The Slytherin Common Room is located in the dungeons, beneath the Black Lake."
+            },
+            {
+                "name": "ravenclaw-common-room",
+                "description": "The Ravenclaw Common Room is located in a tower on the west side of the castle."
+            },
+            {
+                "name": "gryffindor-common-room",
+                "description": "The Gryffindor Common Room is located in a tower on the east side of the castle."
+            },
+            {
+                "name": "hogwarts-library",
+                "description": "The Library is located on the fourth floor of Hogwarts Castle."
+            },
+            {
+                "name": "hospital-wing",
+                "description": "The Hospital Wing is located on the second floor of Hogwarts Castle."
+            },
+            {
+                "name": "prefects-bathroom",
+                "description": "The Prefects' Bathroom is located on the fifth floor of Hogwarts Castle."
+            },
+            {
+                "name": "room-of-requirement",
+                "description": "The Room of Requirement is located on the seventh floor of Hogwarts Castle."
+            },
+            {
+                "name": "astronomy-tower",
+                "description": "The Astronomy Tower is located on the top of the Astronomy Tower."
+            },
+            {
+                "name": "owlery",
+                "description": "The Owlery is located on the top of the West Tower."
+            },
+            {
+                "name": "divination-tower",
+                "description": "The Divination Classroom is located in the North Tower of Hogwarts Castle."
+            },
+            {
+                "name": "potions-classroom",
+                "description": "The Potions Classroom is located in the dungeons, beneath the Black Lake."
+            },
+            {
+                "name": "defense-against-the-dark-arts-classroom",
+                "description": "The Defense Against the Dark Arts Classroom is located on the third floor of Hogwarts Castle."
+            },
+            {
+                "name": "transfiguration-classroom",
+                "description": "The Transfiguration Classroom is located on the first floor of Hogwarts Castle."
+            },
+            {
+                "name": "charms-classroom",
+                "description": "The Charms Classroom is located on the third floor of Hogwarts Castle."
+            },
+            {
+                "name": "herbology-greenhouses",
+                "description": "The Herbology Greenhouses are located on the grounds of Hogwarts Castle."
+            },
+            {
+                "name": "hagrids-hut",
+                "description": "Chat to Hagrid in his hut outside the Forbidden Forest."
+            },
+            {
+                "name": "pumpkin-patch",
+                "description": "The Pumpkin Patch is just outside Hagrid's Hut and has lots of pumpkins."
+            },
+            {
+                "name": "whomping-willow",
+                "description": "The Whomping Willow is a very violent tree that stands on the grounds of Hogwarts Castle with a hidden tunnel beneath its roots :eyes:"
+            },
+            {
+                "name": "forbidden-forest",
+                "description": "The Forbidden Forest is a large, dark forest on the grounds of Hogwarts Castle."
+            },
+            {
+                "name": "chamber-of-secrets",
+                "description": "The Chamber of Secrets is a hidden chamber built by Salazar Slytherin."
+            },
+            {
+                "name": "quidditch-pitch",
+                "description": "The Quidditch Pitch is where the Hogwarts Quidditch matches are held."
+            }
+        ]
+    },
+    {
+        "name": "Ministry of Magic",
+        "channels": [
+            {
+                "name": "regulation-and-control-of-magical-creatures",
+                "description": "The Department for the Regulation and Control of Magical Creatures is responsible for the laws and regulations regarding magical creatures."
+            },
+            {
+                "name": "magical-law-enforcement",
+                "description": "The Department of Magical Law Enforcement is responsible for the enforcement of laws and regulations regarding the use of magic."
+            },
+            {
+                "name": "regulation-and-control-of-magical-transporation",
+                "description": "The Department of Magical Transportation is responsible for the regulation of all magical travel."
+            },
+            {
+                "name": "magical-accidents-and-catastrophes",
+                "description": "The Department of Magical Accidents and Catastrophes is responsible for repairing damage caused by magical accidents."
+            },
+            {
+                "name": "international-magical-cooperation",
+                "description": "The Department of International Magical Cooperation is responsible for maintaining wizarding relations with foreign governments."
+            }, {
+                "name": "magical-games-and-sports",
+                "description": "The Department of Magical Games and Sports is responsible for the regulation of all magical games and sports."
+            },
+            {
+                "name": "mysteries",
+                "description": "The Department of Mysteries is a section of the Ministry of Magic that carries out confidential research."
+            },
+            {
+                "name": "magical-maintenance",
+                "description": "The Department of Magical Maintenance is responsible for the maintenance of the Ministry of Magic."
+            }
+        ]
+    }
+]
