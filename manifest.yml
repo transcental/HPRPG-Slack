@@ -1,12 +1,10 @@
 {
     "display_information": {
-        "name": "My Slack App",
-        "description": "Slack app that does cool things!",
-        "background_color": "#d45443"
+        "name": "HPRPG"
     },
     "features": {
         "bot_user": {
-            "display_name": "Amber's App",
+            "display_name": "HPRPG",
             "always_online": false
         }
     },
@@ -14,6 +12,13 @@
         "scopes": {
             "bot": [
                 "chat:write",
+                "chat:write.customize",
+                "channels:manage",
+                "channels:join",
+                "channels:write.topic",
+                "channels:history",
+                "channels:read",
+                "channels:write.invites"
             ]
         }
     },

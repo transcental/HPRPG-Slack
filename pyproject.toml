@@ -1,5 +1,5 @@
 [project]
-name = "slacktemplate"
+name = "hprpg"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-app = "app.__main__:start"
+hprpg = "hprpg.__main__:start"
 
 [build-system]
 requires = ["hatchling"]

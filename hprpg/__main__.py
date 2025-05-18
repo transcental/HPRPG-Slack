@@ -7,8 +7,8 @@ from aiohttp import ClientSession
 from dotenv import load_dotenv
 from starlette.applications import Starlette
 
-from app.utils.env import env
-from app.utils.logging import send_heartbeat
+from hprpg.utils.env import env
+from hprpg.utils.logging import send_heartbeat
 
 load_dotenv()
 
@@ -24,7 +24,7 @@ logging.basicConfig(level="INFO" if env.environment != "production" else "WARNIN
 
 @contextlib.asynccontextmanager
 async def main(_app: Starlette):
-    await send_heartbeat(":neodog_nom_verified: Bot is online!")
+    await send_heartbeat(":magic_wand: Bot is online!")
     async with ClientSession() as session:
         env.session = session
         yield
@@ -32,7 +32,7 @@ async def main(_app: Starlette):
 
 def start():
     uvicorn.run(
-        "app.utils.starlette:app",
+        "hprpg.utils.starlette:app",
         host="0.0.0.0",
         port=env.port,
         log_level="info" if env.environment != "production" else "warning",
