@@ -6,23 +6,43 @@
         "bot_user": {
             "display_name": "HPRPG",
             "always_online": false
-        }
+        },
+        "slash_commands": [
+            {
+                "command": "/hprpg-setup",
+                "description": "Setup HPRPG",
+                "should_escape": false,
+                "url": "https://hprpg.transcental.dev/slack/events"
+            },
+            {
+                "command": "/hprpg-tidy",
+                "description": "Tidy up HPRPG channels",
+                "should_escape": false,
+                "url": "https://hprpg.transcental.dev/slack/events"
+            }
+        ]
     },
     "oauth_config": {
         "scopes": {
             "bot": [
+                "channels:history",
+                "channels:join",
+                "channels:manage",
+                "channels:read",
+                "channels:write.invites",
+                "channels:write.topic",
                 "chat:write",
                 "chat:write.customize",
-                "channels:manage",
-                "channels:join",
-                "channels:write.topic",
-                "channels:history",
-                "channels:read",
-                "channels:write.invites"
+                "commands",
+                "groups:read"
             ]
         }
     },
     "settings": {
+        "interactivity": {
+            "is_enabled": true,
+            "request_url": "https://hprpg.transcental.dev/slack/events"
+        },
         "org_deploy_enabled": false,
         "socket_mode_enabled": false,
         "token_rotation_enabled": false
